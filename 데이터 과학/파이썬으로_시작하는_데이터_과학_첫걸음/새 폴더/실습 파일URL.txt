@@ -1,0 +1,15 @@
+
+
+1. 자신의 구글 아이디와 비밀번호를 파악하여
+    크롬을 통해 구글에 로그인을 합니다.
+
+2. 실습 파일URL(교재 앞 부분에 기록해두기)
+    https://url.kr/42xknb
+
+
+
+#matplotlib에서 한글지원을 위해서는 
+# 한글 처리 위한 코드  실행 후 런타임 재실행하기
+!sudo apt-get install -y fonts-nanum
+!sudo fc-cache -fv
+!rm ~/.cache/matplotlib -rf
